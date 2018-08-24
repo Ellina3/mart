@@ -1,0 +1,579 @@
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('fonts/OpenSans-Regular.woff');
+}
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url('fonts/OpenSans-Bold.ttf');
+    src: url('fonts/opensans-bold.woff');
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('fonts/Roboto-Thin.ttf');
+    src: url('fonts/Roboto-Thin.woff');
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('fonts/Roboto-Regular.ttf');
+    src: url('fonts/Roboto-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('fonts/Roboto-Medium.ttf');
+    src: url('fonts/Roboto-Medium.woff');
+}
+
+@font-face {
+    font-family: 'OpenSans SemiBold';
+    src: url('fonts/OpenSans-SemiBold.ttf');
+    src: url('fonts/OpenSans-SemiBold.woff');
+}
+
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url('fonts/OpenSans-Light.ttf');
+    src: url('fonts/OpenSans-Light.wof');
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('fonts/Roboto-Black.ttf');
+    src: url('fonts/Roboto-Black.woff');
+}
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+.topheader {
+    background: #1abc9c;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.topheader_container{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+}
+
+.contacts{
+    float:left;
+    display: flex;
+}
+
+.tel a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "OpenSans Regular";
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.tel img{
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+.email a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "OpenSans Regular";
+    color: rgb(254, 254, 254);
+    text-align: left;
+    line-height: 20px;
+}
+
+.email img{    
+    margin-bottom: -1px;
+}
+
+.navigation {
+    width: 42%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "OpenSans Regular";
+    color: rgb(254, 254, 254);
+    line-height: 20px;
+}
+
+.menusection {
+    background: #ffffff;
+}
+
+.menusection_container{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.activemenu{
+    width: 51%;
+    padding-top: 2px;
+}
+
+ul.mobmenu > li >a {
+    display: none;  
+}
+
+.mobmenu li {
+    list-style: none;
+}
+
+.submenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "OpenSans Bold";
+    text-transform: uppercase;
+    color: #0f0101;
+    line-height: 20px;
+    text-align: right;
+}
+
+.submenu a:hover{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "OpenSans Bold";
+    text-transform: uppercase;
+    color: #1abc9c;
+    line-height: 20px;
+    text-align: right;
+}
+
+.sliderarrow{
+    background: url("img/sliderimage.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.sliderarrow h2{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Thin";
+    text-transform: uppercase;
+    color: rgb(255, 252, 252);
+}
+
+.sliderarrow h2 span{
+    font-size: 48px;
+    font-family: "Roboto Regular";
+    text-transform: uppercase;
+    color: #1abc9c;
+}
+
+.sliderarrow p{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Regular";
+    text-transform: uppercase;
+    color: rgb(255, 252, 252);
+}
+
+.sliderarrow p span{
+    font-size: 48px;
+    font-family: "Roboto Medium";
+    text-transform: uppercase;
+    color: #1abc9c;
+}
+
+.sliderarrow button{
+    display:block;
+    margin: 0 auto;
+    width: 105px;
+    height: 30px;
+    border: 1px solid #1abc9c;
+    background: none;
+    cursor: pointer;
+}
+
+.sliderarrow a{
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: "Roboto Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.features{
+    background: #ffffff;
+}
+
+.features_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 76px;
+}
+
+.img{
+    width: 24%;
+    text-align: center;
+}
+
+.img a.setting div{
+    width: 66px;
+    height: 66px;
+    background-image: url(img/setting.png);
+    margin: 0px auto 50px auto;
+}
+
+.img:hover a.setting div{
+    width: 66px;
+    height: 66px;
+    background-image: url(img/setting1.png);
+    margin: 0px auto 50px auto;
+}
+
+.img a.money div{
+    width: 57px;
+    height: 53px;
+    background-image: url(img/money.png);
+    margin: 11px auto 50px auto;
+}
+
+.img:hover a.money div{
+    width: 57px;
+    height: 53px;
+    background-image: url(img/money1.png);
+    margin: 11px auto 50px auto;
+}
+
+.img a.world div{
+    width: 58px;
+    height: 59px;
+    background-image: url(img/world.png);
+    margin: 5px auto 50px auto;
+}
+
+.img:hover a.world div{
+    width: 58px;
+    height: 59px;
+    background-image: url(img/world1.png);
+    margin: 5px auto 50px auto;
+}
+
+.img a.shipping div{
+    width: 56px;
+    height: 66px;
+    background-image: url(img/shipping.png);
+    margin: 0px auto 50px auto;
+}
+
+.img:hover a.shipping div{
+    width: 56px;
+    height: 66px;
+    background-image: url(img/shipping1.png);
+    margin: 0px auto 50px auto;
+}
+
+.img a{
+    font-size: 18px;
+    font-family: "OpenSans SemiBold";
+    color: rgb(85, 82, 82);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img:hover a{
+    font-size: 18px;
+    font-family: "OpenSans SemiBold";
+    color: #1abc9c;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: "OpenSans Light";
+    color: rgb(85, 82, 82);
+    text-align: center;
+}
+
+.collection{
+    background: #e9f0fd; 
+}
+
+.collection_container{
+    padding-top: 90px;
+}
+
+.collection_container h2{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Black";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.collection_container img{
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.models{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.models a{
+    text-decoration: none;
+    cursor: pointer; 
+    box-sizing: border-box; 
+    margin-bottom: -110px;
+}
+
+.models a > img{
+    width: 255px;
+    height: 322px;
+    margin-bottom: -44px;
+    padding-bottom: 0px;
+}
+
+.subtitle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+
+.subtitle h3{
+    width: 78%;
+    font-size: 18px;
+    font-family: "Roboto Black";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 15px;
+    background-color:  #323232;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.models a:hover .subtitle h3{
+    width: 78%;
+    font-size: 18px;
+    font-family: "Roboto Black";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 15px;
+    background-color:  #1abc9c;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.subtitle p{
+    width: 22%;
+    font-size: 18px;
+    font-family: "Roboto Black";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color:  #8c8c8c;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.models a:hover .subtitle p{
+    width: 22%;
+    font-size: 18px;
+    font-family: "Roboto Black";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color:  #7fd9c7;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.cover{
+  visibility: hidden;
+  position: relative;
+  width: 100%;
+  height: 53%;
+  background-color: rgba(0, 0, 0, .6);
+  text-align: center;
+  text-decoration:none;
+  top: -326px;
+  outline: 10px solid  rgb(255, 255, 255, .6);
+  outline-offset: -9px;
+}
+
+.models a:hover .cover{
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    height: 53%;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    text-decoration:none;
+    top: -326px;
+    outline: 10px solid  rgb(255, 255, 255, .6);
+    outline-offset: -9px;
+}
+
+.sharebuttons{
+    width: 165px;
+    margin: 0 auto;
+}
+
+.share{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;  
+    padding-top: 92px; 
+    padding-bottom: 5px;
+}
+
+.share > button {
+    text-align: center; 
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.share > button:hover {
+    text-align: center; 
+    border: none;
+    background-color: #1abc9c;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.share > button img{
+    padding-top: 11px;
+}
+
+.addtocart{
+    width: 165px;
+    height: 50px;
+}
+
+.addtocart > button{
+    width: 165px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-family: "OpenSans Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.addtocart > button:hover{
+    width: 165px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #323232;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-family: "OpenSans Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.addtocart > button img{
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.featured{
+    background: #ffffff; 
+}
+
+.featured_container{
+    padding-top: 90px;
+}
+
+.featured_container h2{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Black";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.featured_container img{
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.butt{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.butt button{
+    font-size: 16px;
+    font-family: "Roboto Thin";
+    color:  #959595;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #959595;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+

@@ -46,6 +46,12 @@
     src: url('fonts/Roboto-Black.woff');
 }
 
+@font-face {
+    font-family: 'OpenSans ExtraBold';
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+    src: url('fonts/OpenSans-ExtraBold.woff');
+}
+
 * {
     margin: 0;
     padding:0;
@@ -360,11 +366,12 @@ ul.mobmenu > li >a {
 
 .models{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .models a{
+    width: 23%;
     text-decoration: none;
     cursor: pointer; 
     box-sizing: border-box; 
@@ -486,7 +493,7 @@ ul.mobmenu > li >a {
 
 .share > button:hover {
     text-align: center; 
-    border: none;
+    border: 1px solid  #1abc9c;
     background-color: #1abc9c;
     height: 50px;
     width: 50px;
@@ -559,13 +566,29 @@ ul.mobmenu > li >a {
     padding-bottom: 80px;
 }
 
+.featured_container .group{
+    display:block;
+    margin: 0 auto;
+    width: 48%;
+}
+
 .butt{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.butt button{
+.butt .value{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.butt a{
+    text-decoration: none;
+}
+
+.butt .value > p{
     font-size: 16px;
     font-family: "Roboto Thin";
     color:  #959595;
@@ -574,6 +597,188 @@ ul.mobmenu > li >a {
     background-color: transparent;
     border: 1px solid #959595;
     border-radius: 4px;
-    margin-right: 10px;
+    line-height: 27px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.butt .value > p:hover{
+    font-size: 16px;
+    font-family: "Roboto Thin";
+    color:  #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+    border-radius: 4px;
+    line-height: 27px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.butt .quantity p{
+    visibility: hidden;
+    font-size: 20px;
+    font-family: "Roboto Regular";
+    color: rgb(26, 188, 156);
+    background-color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 30px;
+    border: 1px solid #959595;
+    border-radius: 50%;
+    padding: 2px 10px 2px 10px;
+    margin-top: -30px;
+    margin-left: -23px;
+}
+
+.value:hover .quantity p{
+    visibility: visible;
+    font-size: 20px;
+    font-family: "Roboto Regular";
+    color: rgb(26, 188, 156);
+    background-color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 30px;
+    border: 1px solid #959595;
+    border-radius: 50%;
+    padding: 2px 10px 2px 10px;
+    margin-top: -30px;
+    margin-left: -23px;
+}
+
+.salenew{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    z-index: 2;
+    margin-bottom: -40px;
+    visibility: visible;
+}
+
+.but{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.new{
+    width: 50%;
+    float: left;
+}
+.sale{
+    width: 50%;
+    margin-left: 90px;
+}
+
+.salenew button{
+    font-size: 16px;
+    font-family: "Roboto Thin";
+    color: rgb(85, 82, 82);
+    text-transform: uppercase;
+    text-align: center; 
+    border: 1px solid black;
+    background-color: transparent;
+    width: 70px;
+    height: 30px;  
+}
+
+.models a:hover .salenew{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    z-index: 2;
+    margin-bottom: -40px;
+    visibility: hidden;
+}
+
+.saleseason{
+    background: url("img/escalator.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.saleseason_container h2{
+    font-size: 60px;
+    font-family: "OpenSans ExtraBold";
+    color: rgb(255, 254, 254);
+    text-align: center; 
+    padding-top: 170px;
+        
+}
+
+.saleseason_container p{
+    font-size: 37px;
+    font-family: "OpenSans Light";
+    color: rgb(255, 254, 254);
+    text-align: center; 
+    padding-bottom: 130px;    
+}
+
+.customers{
+    background: #ffffff; 
+}
+
+.customers_container{
+    padding-top: 90px;
+}
+
+.customers_container h2{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Black";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.customers_container img{
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.customer img{
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.customer p{
+    font-size: 14px;
+    font-family: "OpenSans Light";
+    color: rgb(81, 81, 81);
+    text-align: center;
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.customer h3{
+    font-size: 18px;
+    font-family: "OpenSans Bold";
+    color: rgb(26, 188, 156);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.customer h4{
+    font-size: 13px;
+    font-family: "OpenSans Light";
+    color: rgb(81, 81, 81);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 

@@ -52,6 +52,12 @@
     src: url('fonts/OpenSans-ExtraBold.woff');
 }
 
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.ttf');
+    src: url('fonts/Roboto-Light.woff');
+}
+
 * {
     margin: 0;
     padding:0;
@@ -257,6 +263,7 @@ ul.mobmenu > li >a {
 .img{
     width: 24%;
     text-align: center;
+    cursor: pointer;
 }
 
 .img a.setting div{
@@ -781,4 +788,241 @@ ul.mobmenu > li >a {
     margin: 0 auto;
     padding-bottom: 30px;
 }
+
+.customers_container .labels{
+    width: 32%;
+    display:block;
+    margin: 0 auto;
+}
+
+.controllers {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    padding-bottom: 80px;
+}
+
+.controllers label img{
+    width: 88px;
+    height: 88px;
+    position: relative;
+    margin-top: -6px;
+    margin-left: -5px;
+}
+
+.controllers  label {
+    height: 76px;
+    width: 77px;
+    border: 5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controllers  label:hover {
+    height: 76px;
+    width: 77px;
+    border: 5px solid #4ec6ab;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selectreview{
+    display: none;
+}
+
+
+.newsletter{
+    background: url("img/newsletter.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.news h3{
+    font-size: 16px;
+    font-family: "OpenSans Light";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -50px;
+}
+
+.formanews {
+    width: 49%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+
+.formanews input {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 540px;
+    height: 60px;
+    float: right;
+    font-size: 16px;
+    font-family: "OpenSans Light";
+    color: rgb(85, 82, 82);
+    padding-left: 30px;
+}
+
+.formanews form {
+    border: none;
+    display: flex;
+}
+
+.formanews button{
+    border: none;
+    border-radius: 5px;
+}
+
+.formanews button img{
+    border: none;
+    padding-bottom: 0px;
+    margin-left: -91px;
+    border-radius: 5px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+}
+
+.partners img{
+    width: 23%;
+}
+  
+.newscoll {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.collnew {
+    width: 32%;
+}
+
+.collnew img {
+    padding-bottom: 0px;
+    float: left;
+}
+
+.collnew h2{
+    font-size: 18px;
+    font-family: "OpenSans SemiBold";
+    color: rgb(85, 82, 82);
+    text-align: left;
+    text-transform: none; 
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.collnew p{
+    font-size: 14px;
+    font-family: "OpenSans Light";
+    color: rgb(85, 82, 82);
+    text-align: left;
+    text-transform: none; 
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.collnew a button{
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4ec6ab;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "OpenSans Light";
+}
+
+.gettouch {
+    background: url("img/martworld.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.gettouch > .collection_container > h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto Black";
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.touch {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.colltouch {
+    width: 49%;
+}
+
+
+.colltouch h4{
+    font-size: 72px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.colltouch h4 span{
+    font-size: 72px;
+    font-family: "Roboto Light";
+    text-align: left;
+    color: rgb(78, 198, 171);
+}
+
+.colltouch h5{
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.colltouch p{
+    font-size: 13px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.cont {
+    display: block;
+}
+
+.cont a{
+    display: block;
+    font-size: 14px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.cont a span{
+    font-size: 14px;
+    font-family: "Roboto Light";
+    text-align: left;
+    color: rgb(70, 191, 169);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+  
+
 

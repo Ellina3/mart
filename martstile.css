@@ -119,7 +119,12 @@
     width: 42%;
 }
 
-.menu{
+.menu > li > a{
+    display: none; 
+    list-style: none; 
+}
+
+.secmenu{
     display: flex;
     justify-content: space-between;
 }
@@ -128,7 +133,7 @@
     list-style: none;
 }
 
-.menu a{
+.secmenu a{
     text-decoration: none;
     font-size: 15px;
     font-family: "OpenSans Regular";
@@ -213,7 +218,6 @@ ul.mobmenu > li >a {
     background: url("img/sliderimage.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -230,7 +234,7 @@ ul.mobmenu > li >a {
 .textslider h2{
     padding-top: 206px;
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
     font-family: "Roboto Thin";
     text-transform: uppercase;
     color: rgb(255, 252, 252);
@@ -246,7 +250,7 @@ ul.mobmenu > li >a {
 .textslider p{
     padding-bottom: 14px;
     text-align: center;
-    font-size: 48px;
+    font-size: 47px;
     font-family: "Roboto Regular";
     text-transform: uppercase;
     color: rgb(255, 252, 252);
@@ -301,60 +305,60 @@ ul.mobmenu > li >a {
     width: 66px;
     height: 66px;
     background-image: url(img/setting.png);
-    margin: 0px auto 50px auto;
+    margin: 0px auto 48px auto;
 }
 
 .img:hover a.setting div{
     width: 66px;
     height: 66px;
     background-image: url(img/setting1.png);
-    margin: 0px auto 50px auto;
+    margin: 0px auto 48px auto;
 }
 
 .img a.money div{
     width: 57px;
     height: 53px;
     background-image: url(img/money.png);
-    margin: 11px auto 50px auto;
+    margin: 11px auto 48px auto;
 }
 
 .img:hover a.money div{
     width: 57px;
     height: 53px;
     background-image: url(img/money1.png);
-    margin: 11px auto 50px auto;
+    margin: 11px auto 48px auto;
 }
 
 .img a.world div{
     width: 58px;
     height: 59px;
     background-image: url(img/world.png);
-    margin: 5px auto 50px auto;
+    margin: 5px auto 48px auto;
 }
 
 .img:hover a.world div{
     width: 58px;
     height: 59px;
     background-image: url(img/world1.png);
-    margin: 5px auto 50px auto;
+    margin: 5px auto 48px auto;
 }
 
 .img a.shipping div{
     width: 56px;
     height: 66px;
     background-image: url(img/shipping.png);
-    margin: 0px auto 50px auto;
+    margin: 0px auto 48px auto;
 }
 
 .img:hover a.shipping div{
     width: 56px;
     height: 66px;
     background-image: url(img/shipping1.png);
-    margin: 0px auto 50px auto;
+    margin: 0px auto 48px auto;
 }
 
 .img a{
-    font-size: 18px;
+    font-size: 17px;
     font-family: "OpenSans SemiBold";
     color: rgb(85, 82, 82);
     text-align: center;
@@ -363,7 +367,7 @@ ul.mobmenu > li >a {
 }
 
 .img:hover a{
-    font-size: 18px;
+    font-size: 17px;
     font-family: "OpenSans SemiBold";
     color: #1abc9c;
     text-align: center;
@@ -372,11 +376,12 @@ ul.mobmenu > li >a {
 }
 
 .img p{
-    padding-top: 20px;
+    padding-top: 23px;
     font-size: 14px;
     font-family: "OpenSans Light";
     color: rgb(85, 82, 82);
     text-align: center;
+    line-height: 24px;
 }
 
 .collection{
@@ -384,16 +389,16 @@ ul.mobmenu > li >a {
 }
 
 .collection_container{
-    padding-top: 90px;
+    padding-top: 94px;
 }
 
 .collection_container h2{
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
     font-family: "Roboto Black";
     color: rgb(81, 81, 81);
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 
 .collection_container img{
@@ -418,7 +423,7 @@ ul.mobmenu > li >a {
 
 .models a > img{
     width: 255px;
-    height: 322px;
+    height: 324px;
     margin-bottom: -44px;
     padding-bottom: 0px;
 }
@@ -591,11 +596,11 @@ ul.mobmenu > li >a {
 
 .featured_container h2{
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
     font-family: "Roboto Black";
     color: rgb(81, 81, 81);
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 
 .featured_container img{
@@ -745,16 +750,16 @@ ul.mobmenu > li >a {
 }
 
 .saleseason_container h2{
-    font-size: 60px;
+    font-size: 57px;
     font-family: "OpenSans ExtraBold";
     color: rgb(255, 254, 254);
     text-align: center; 
-    padding-top: 170px;
+    padding-top: 178px;
         
 }
 
 .saleseason_container p{
-    font-size: 37px;
+    font-size: 35px;
     font-family: "OpenSans Light";
     color: rgb(255, 254, 254);
     text-align: center; 
@@ -771,11 +776,11 @@ ul.mobmenu > li >a {
 
 .customers_container h2{
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
     font-family: "Roboto Black";
     color: rgb(81, 81, 81);
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 
 .customers_container img{
@@ -994,7 +999,7 @@ ul.mobmenu > li >a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding-bottom: 100px;
+    padding-bottom: 170px;
 }
 
 .colltouch {
@@ -1080,3 +1085,558 @@ ul.mobmenu > li >a {
     padding-bottom: 0px;
     padding-top: 8px;  
 }
+
+.colltouch .forma {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 17px;
+}
+
+.forma input {
+    border: 1px solid white;
+    background-color: transparent;
+    width: 48%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.forma input:hover {
+    border: 1px solid #46bfa9;
+    color: #46bfa9;
+}
+
+.colltouch textarea {
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100%;
+    height: 120px;
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    resize: none;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+.colltouch textarea:hover {
+    border: 1px solid #46bfa9;
+    color: #46bfa9;
+}
+
+.colltouch form {
+    border: none;
+    height: 50px;
+}
+
+.colltouch .btn {
+    border: none;
+    background-color: #46bfa9;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Roboto Light";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer{
+    background: #000;
+}
+
+.footer p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: "OpenSans Regular";
+    color: rgb(254, 254, 254);
+    text-align: center;
+}
+
+.footer p span{
+    color: #46bfa9;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 560px;
+    }
+
+    .topheader_container{
+        display: block; 
+        margin: 0 auto;
+        padding-top: 15px; 
+        padding-bottom: 15px;
+    }
+    
+    .contacts{
+        width: 53%;
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .menusection_container {
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .logo{
+        margin: 0 auto;
+        width: 15%;
+    }
+
+    .activemenu {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .cart{
+        margin: 0 auto;
+        width: 21%;
+    }
+    
+    .features_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 90px;
+        padding-bottom: 36px;
+    }
+
+    .img {
+        width: 48%;
+        text-align: center;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+    .models a {
+        width: 46%;
+        text-decoration: none;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-bottom: -110px;
+    }
+
+    .featured_container .group {
+        display: block;
+        margin: 0 auto;
+        width: 100%; 
+    }
+
+    .customers_container .labels {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .formanews {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 130px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+    }
+
+    .partners img {
+        width: 48%;
+    }
+   
+    .newscoll {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 30px;   
+    }
+
+    .collnew {
+        width: 100%;  
+    }
+
+    .collnew img {
+        padding-bottom: 0px;
+        float: none;   
+    }
+
+    .collnew img.blogline {
+        padding-bottom: 0px;
+        float: left;   
+    }
+
+    .collnew a button {
+        margin-bottom: 60px;
+    }
+
+    .touch {
+        flex-wrap: wrap;
+    }
+
+    .colltouch {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .colltouch form {
+        border: none;
+        height: 50px;
+        margin-bottom: 190px;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+      width: 300px;
+    }
+
+    .topheader_container{
+        display: flex; 
+        justify-content: space-between;
+        padding-top: 15px; 
+        padding-bottom: 5px;
+    }
+
+    .contacts{
+        width: 95%;
+    }
+
+    .navigation{
+        width: 5%;
+    }
+
+    .tel a {
+        font-size: 13px;
+    }
+
+    .email a {
+        font-size: 13px;
+    }
+
+    ul.menu > li > a{
+        display: block; 
+        list-style: none; 
+        text-decoration: none;
+        color: #fefefe;
+        font-size: 18px;
+    }
+    
+    ul.secmenu {
+        display: none;
+        position: absolute;
+        right: 0px; 
+        text-align: center;
+        width: 100%;
+    }
+
+    ul.secmenu > li > a {
+        display: block;
+        line-height: 90px;
+        border-bottom: 1px solid #4f5168;
+        font-size: 25px;
+    }
+    
+    ul.menu > li > a:hover {
+        color: black;
+    }
+    
+    ul.secmenu > li > a:hover {
+        color: black;
+    }
+    
+    ul.menu > li:hover > ul.secmenu {
+        display: block;
+        background-color: rgb(131, 107, 107);
+        z-index: 2;
+    }
+
+    .menusection_container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .logo {
+        width: 33%;
+    }
+
+    .activemenu{
+        width: 33%;
+        padding-top: 2px;
+    }
+
+    .cart{
+        width: 33%;
+        margin-top: -8px;
+    }
+
+    .cart a {
+        font-size: 13px;
+    }
+
+    ul.mobmenu > li > a {
+        display: flex;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: "OpenSans Bold";
+        text-transform: uppercase;
+        color: #0f0101;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    ul.submenu {
+        display: none;
+        position: absolute;
+        right: 0px; 
+        text-align: center;
+        width: 100%;
+    }
+
+    ul.submenu > li > a {
+        display: block;
+        line-height: 64px;
+        border-bottom: 1px solid #4f5168;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    ul.mobmenu > li > a:hover {
+        color: #46bfa9;
+    }
+    
+    ul.submenu > li > a:hover {
+        color: #46bfa9;
+        line-height: 64px;
+        border-bottom: 1px solid #4f5168;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    ul.mobmenu > li:hover > ul.submenu {
+        display: block;
+        background-color: rgb(131, 107, 107);
+        z-index: 2;
+    }
+
+    .sliderarrow button{
+        margin-top: 97px;
+        height: 29px;
+        width: 25px;
+    }
+
+    .sliderarrow button img{
+        height: 29px;
+        width: 25px;
+    }
+
+    .textslider h2 {
+        padding-top: 65px;
+        font-size: 20px;
+    }
+    .textslider h2 span {
+        font-size: 20px;
+    }
+
+    .textslider p {
+        padding-bottom: 14px;
+        text-align: center;
+        font-size: 19px;
+        font-family: "Roboto Regular";
+        text-transform: uppercase;
+        color: rgb(255, 252, 252);
+    }
+
+    .textslider p span {
+        font-size: 19px;
+    }
+
+    .textslider > button {
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+        height: 40px;
+        border: 2px solid #1abc9c;
+        background: none;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    .features_container {
+        padding-top: 40px;
+    }
+
+    .img {
+        width: 91%;
+        text-align: center;
+        cursor: pointer;
+        padding-bottom: 50px;
+    }
+
+    .collection_container {
+        padding-top: 40px;
+    }
+
+    .featured_container {
+        padding-top: 40px;
+    }
+
+    .collection_container h2 {
+        font-size: 34px;
+    }
+  
+    .models a {
+        width: 100%;
+        text-decoration: none;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-bottom: -110px;
+    }
+
+    .models a > img {
+        width: 300px;
+        height: 369px;
+        margin-bottom: -44px;
+        padding-bottom: 0px;
+    }
+
+    .models a:hover .cover {
+        visibility: visible;
+        position: relative;
+        width: 100%;
+        height: 58%;
+        background-color: rgba(0, 0, 0, .6);
+        text-align: center;
+        text-decoration: none;
+        top: -377px;
+        outline: 10px solid rgb(255, 255, 255, .6);
+        outline-offset: -9px;
+    }
+
+    .featured_container h2 {
+        text-align: center;
+        font-size: 28px;
+        font-family: "Roboto Black";
+        color: rgb(81, 81, 81);
+        text-transform: uppercase;
+        padding-bottom: 18px;
+    }
+
+    .butt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .saleseason_container h2 {
+        font-size: 27px;
+        font-family: "OpenSans ExtraBold";
+        color: rgb(255, 254, 254);
+        text-align: center;
+        padding-top: 76px;
+    }
+
+    .saleseason_container p {
+        font-size: 18px;
+        font-family: "OpenSans Light";
+        color: rgb(255, 254, 254);
+        text-align: center;
+        padding-bottom: 76px;
+    }
+
+    .customers_container {
+        padding-top: 40px;
+    }
+
+    .customers_container h2 {
+        font-size: 31px;
+    }
+
+    .customers_container .labels {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .news h3 {
+        font-size: 15px;
+    }
+
+    .formanews {
+        width: 100%;
+    }
+
+    .partners img {
+        width: 100%;
+    }
+
+    .collnew > img {
+        padding-bottom: 0px;
+        float: left;
+        height: 220px;
+        width: 270px;
+    }
+
+    .customers_container h2 {
+        font-size: 17px;
+    }
+
+    .collnew > img.blogline {
+        padding-bottom: 0px;
+        float: left;
+        height: 3px;
+        width: 136px;
+    }
+
+    .collnew a button {
+        margin-bottom: 60px;
+    }
+
+    .gettouch > .collection_container > h2 {
+        font-size: 43px;
+    }
+
+    .colltouch h4 {
+        font-size: 58px;
+    }
+
+    .colltouch h4 span {
+        font-size: 58px;
+    }
+
+    .colltouch h5 {
+        font-size: 21px;
+    }
+
+    .footer p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    
+}
+
+
+
+

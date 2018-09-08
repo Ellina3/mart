@@ -27,11 +27,15 @@
                     </div>
                     <div class="navigation">
                         <ul class="menu">
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Wishlist</a></li>
-                            <li><a href="#">Cart</a></li>
-                            <li><a href="#">Checkout</a></li>
-                            <li><a href="#"><span><i class="fa fa-lock"></i></span>  Login/Register</a></li>
+                            <li><a href="#"><i class="far fa-user"></i></a>
+                                <ul class="secmenu">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Cart</a></li>
+                                    <li><a href="#">Checkout</a></li>
+                                    <li><a href="#"><span><i class="fa fa-lock"></i></span>  Login/Register</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -725,7 +729,7 @@
                         <div class="collnew">
                             <img src="img/ipad.jpg" alt="ipad.jpg">
                             <h2>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-                            <img src="img/blogline.png" alt="blogline.png">
+                            <img class="blogline" src="img/blogline.png" alt="blogline.png">
                             <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit
                                 amet nibh vulputate cursus a sit amet mauris. Morbi
                                 accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
@@ -734,7 +738,7 @@
                         <div class="collnew">
                             <img src="img/girls.jpg" alt="girls.jpg">
                             <h2>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-                            <img src="img/blogline.png" alt="blogline.png">
+                            <img class="blogline" src="img/blogline.png" alt="blogline.png">
                             <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit
                                 amet nibh vulputate cursus a sit amet mauris. Morbi
                                 accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
@@ -743,7 +747,7 @@
                         <div class="collnew">
                             <img src="img/bus5.jpg" alt="bus5.jpg">
                             <h2>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-                            <img src="img/blogline.png" alt="blogline.png">
+                            <img class="blogline" src="img/blogline.png" alt="blogline.png">
                             <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit
                                 amet nibh vulputate cursus a sit amet mauris. Morbi
                                 accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
@@ -784,9 +788,31 @@
                                     <a href="https://www.github.com" target="_blank"><img src="img/github.png" alt="github"></a>
                             </div>
                         </div>
+                        <div class="colltouch">
+                            <form>
+                                <div class="forma">
+                                    <input name="name" placeholder="   Your Name" class="name" required />
+                                    <input name="emailaddress" placeholder="   Your Email" class="email" type="email" required />
+                                </div>
+                                <div class="forma">
+                                    <input name="subject" placeholder="   Subject" class="subject" required />
+                                    <input name="website" placeholder="   Website URL" class="website" type="website" required />
+                                </div>
+                                <textarea name="subject" placeholder="   Your Message..." class="message" required></textarea>
+                                <input name="submit" class="btn" type="submit" value="SEND" />
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>        
+            </div>
+
+
+<!-- GET IN TOUCH -->
+
+
+            <div class="footer">
+                <p>All Rights Reserved © Dokan | Designed <span>ThemenGraph</span></p>
+            </div>       
         </body>
     </html>
 

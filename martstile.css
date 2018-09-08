@@ -148,7 +148,7 @@
 }
 
 .activemenu{
-    width: 51%;
+    width: 52%;
     padding-top: 2px;
 }
 
@@ -171,7 +171,7 @@ ul.mobmenu > li >a {
 
 .submenu a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-family: "OpenSans Bold";
     text-transform: uppercase;
     color: #0f0101;
@@ -181,7 +181,7 @@ ul.mobmenu > li >a {
 
 .submenu a:hover{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-family: "OpenSans Bold";
     text-transform: uppercase;
     color: #1abc9c;
@@ -189,15 +189,46 @@ ul.mobmenu > li >a {
     text-align: right;
 }
 
+.cart{
+    margin-top: -7px;
+}
+
+.cart a span{
+    color: #0f0101;
+}
+
+.cart a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "OpenSans Regular";
+    text-transform: uppercase;
+    color: #0f0101;
+}
+
+.cart a img{
+    margin-bottom: -4px;
+}
+
 .sliderarrow{
     background: url("img/sliderimage.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.sliderarrow h2{
-    padding-top: 200px;
+.sliderarrow button{
+    border: none;
+    margin-top: 228px;
+    position: relative;
+    cursor: pointer;
+    height: 104px;
+    width: 104px;
+}
+
+.textslider h2{
+    padding-top: 206px;
     text-align: center;
     font-size: 48px;
     font-family: "Roboto Thin";
@@ -205,15 +236,15 @@ ul.mobmenu > li >a {
     color: rgb(255, 252, 252);
 }
 
-.sliderarrow h2 span{
+.textslider h2 span{
     font-size: 48px;
     font-family: "Roboto Regular";
     text-transform: uppercase;
     color: #1abc9c;
 }
 
-.sliderarrow p{
-    padding-bottom: 20px;
+.textslider p{
+    padding-bottom: 14px;
     text-align: center;
     font-size: 48px;
     font-family: "Roboto Regular";
@@ -221,24 +252,24 @@ ul.mobmenu > li >a {
     color: rgb(255, 252, 252);
 }
 
-.sliderarrow p span{
+.textslider p span{
     font-size: 48px;
     font-family: "Roboto Medium";
     text-transform: uppercase;
     color: #1abc9c;
 }
 
-.sliderarrow button{
+.textslider button{
     display:block;
     margin: 0 auto;
-    width: 105px;
-    height: 30px;
-    border: 1px solid #1abc9c;
+    width: 120px;
+    height: 40px;
+    border: 2px solid #1abc9c;
     background: none;
     cursor: pointer;
 }
 
-.sliderarrow a{
+.textslider a{
     text-decoration: none;
     line-height: 30px;
     font-size: 13px;
@@ -1023,6 +1054,29 @@ ul.mobmenu > li >a {
     font-weight: bold;
     padding-bottom: 15px;
 }
-  
 
+.socialicons{
+    display: flex;
+}
 
+.socialicons a {
+    border: 1px solid #fefefe;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.socialicons a:hover {
+    background-color: #46bfa9;
+    border: 1px solid #46bfa9;
+}
+
+.socialicons a img{
+    padding-bottom: 0px;
+    padding-top: 5px;  
+}
+
+.socialicons a:nth-child(2) img{
+    padding-bottom: 0px;
+    padding-top: 8px;  
+}
